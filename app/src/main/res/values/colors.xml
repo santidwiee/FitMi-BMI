@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#2cb8a3</color>
+    <color name="darkBlue">#334c7f</color>
+    <color name="softLumut">#c2c480</color>
+    <color name="white">#eff4fb</color>
+    <color name="violet">#84288f</color>
+    <color name="maroon">#ad2423</color>
+    <color name="black">#07060b</color>
+    <color name="abuabu">#65575B63</color>
+    <color name="orange">#c36328</color>
+
+    <color name="lumut">#a6c44d</color>
+</resources>

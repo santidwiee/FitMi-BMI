@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:id="@+id/frame"
+             android:layout_height="match_parent"
+             tools:context=".view.MenuFragment">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:id="@+id/btn_kurang"
+                android:text="Menu Kurang"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/abuabu"
+                android:background="@drawable/button1"
+                android:layout_width="150dp"
+                android:layout_height="70dp"/>
+        <Button
+                android:id="@+id/btn_normal"
+                android:text="Menu Normal"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/green"
+                android:background="@drawable/button2"
+                android:layout_width="150dp"
+                android:layout_height="70dp"/>
+        <Button
+                android:id="@+id/btn_berlebih"
+                android:text="Menu Berlebih"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/orange"
+                android:background="@drawable/button3"
+                android:layout_width="150dp"
+                android:layout_height="70dp"/>
+        <Button
+                android:id="@+id/btn_obesitas"
+                android:text="Menu Obesitas"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/maroon"
+                android:background="@drawable/button4"
+                android:layout_width="150dp"
+                android:layout_height="70dp"/>
+    </LinearLayout>
+
+    <ImageView
+            android:visibility="gone"
+            android:id="@+id/menu_kurang"
+            android:padding="4dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/menu_kurang"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"/>
+    <ImageView
+            android:visibility="gone"
+            android:id="@+id/menu_normal"
+            android:padding="4dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/menu_normal"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"/>
+    <ImageView
+            android:visibility="gone"
+            android:id="@+id/menu_berlebih"
+            android:padding="4dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/menu_berlebih"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"/>
+    <ImageView
+            android:visibility="gone"
+            android:id="@+id/menu_obesitas"
+            android:padding="4dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/menu_obesitas"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"/>
+</FrameLayout>

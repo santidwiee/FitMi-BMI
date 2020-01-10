@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+            android:id="@+id/btn_batal"
+            android:src="@drawable/batal"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    <EditText
+            android:layout_below="@+id/btn_batal"
+            android:id="@+id/edt_berat"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext"
+            android:hint="Berat Badan"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:textColor="@color/darkBlue"
+            android:textSize="18sp"/>
+    <EditText
+            android:layout_below="@+id/btn_batal"
+            android:id="@+id/edt_tinggi"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext"
+            android:hint="Tinggi Badan"
+            android:padding="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textColor="@color/darkBlue"
+            android:textSize="18sp"/>
+
+    <ImageView
+            android:id="@+id/btn_date"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/date"
+            android:layout_below="@+id/edt_berat"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    <TextView
+            android:id="@+id/txt_date"
+            android:hint="yyyy/mm/dd"
+            android:textColor="@color/lumut"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="60dp"
+            android:layout_below="@id/edt_tinggi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:layout_below="@+id/txt_date"
+            android:id="@+id/btn_simpan"
+            android:background="@drawable/button"
+            android:text="Simpan"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:padding="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"/>
+</RelativeLayout>

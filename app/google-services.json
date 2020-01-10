@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "30245144871",
+    "firebase_url": "https://apparisan-f75b1.firebaseio.com",
+    "project_id": "apparisan-f75b1",
+    "storage_bucket": "apparisan-f75b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30245144871:android:327b19224d76fc33278102",
+        "android_client_info": {
+          "package_name": "com.example.apparisan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30245144871-i2b9c9riidfai1ssl724lba2ufv9a44f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apparisan",
+            "certificate_hash": "52019e0f8cec9db708895dc419e6213a819548d8"
+          }
+        },
+        {
+          "client_id": "30245144871-7nt2bqprtgtdq95jcd07v49onmjp63io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3lPAKR_iwQiylBYHI2Qf_n68iBtfjM8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30245144871-7nt2bqprtgtdq95jcd07v49onmjp63io.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

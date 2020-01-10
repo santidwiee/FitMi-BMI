@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+                android:padding="15dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+            android:id="@+id/btn_batal"
+            android:src="@drawable/batal"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:src="@drawable/account"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/FotoProfil"
+    android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+            android:layout_marginTop="160dp"
+            android:layout_marginStart="90dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:id="@+id/tambahFoto"
+                android:src="@drawable/plus"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_below="@+id/FotoProfil"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/nama"
+                android:background="@drawable/edittext"
+                android:hint="Nama..."
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/lumut"
+                android:textSize="18sp"/>
+        <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/tlp"
+                android:background="@drawable/edittext"
+                android:hint="No.Tlp/Hp..."
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/lumut"
+                android:textSize="18sp"/>
+
+        <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/alamat"
+                android:background="@drawable/edittext"
+                android:hint="Alamat..."
+                android:gravity="top"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textColor="@color/lumut"
+                android:textSize="18sp"/>
+        <Button
+                android:id="@+id/addprofil"
+                android:text="Simpan"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button"
+                android:layout_width="120dp"
+                android:layout_height="50dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
